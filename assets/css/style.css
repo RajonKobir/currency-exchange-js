@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+#exchange_icon{
+    font-size: 50px;
+    color: #757E47;
+    margin-top: 4%;
+}
+
+#submit_button{
+    width: 100px;
+    margin: 0 auto;
+    color: #fff;
+    background-color: #757E47;
+}
+#submit_button:hover{
+  background-color: blue;
+}
+
+#submit_section{
+    margin-top: 10%;
+}
+
+.page-header{
+    color: #757E47;
+}
+
+
+/* hide arrows from input type number */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
